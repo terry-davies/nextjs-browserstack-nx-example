@@ -1,0 +1,9 @@
+{
+  "name": "next-browserstack-automate",
+  "$schema": "../../node_modules/nx/schemas/project-schema.json",
+  "sourceRoot": "apps/next-browserstack-automate",
+  "projectType": "application",
+  "tags": [],
+  "// targets": "to see all targets run: nx show project next-browserstack-automate --web",
+  "targets": {}
+}
