@@ -1,0 +1,50 @@
+{
+  "auth": {
+    "username": "BROWSERSTACK_USERNAME",
+    "access_key": "BROWSERSTACK_ACCESS_KEY"
+  },
+  "browsers": [
+    {
+      "browser": "chrome",
+      "os": "Windows 11",
+      "versions": ["latest", "latest - 1"]
+    },
+    {
+      "browser": "chrome",
+      "os": "OS X Mojave",
+      "versions": ["latest", "latest - 1"]
+    },
+    {
+      "browser": "firefox",
+      "os": "OS X Mojave",
+      "versions": ["latest", "latest - 1"]
+    },
+    {
+      "browser": "firefox",
+      "os": "Windows 11",
+      "versions": ["latest", "latest - 1"]
+    },
+    {
+      "browser": "edge",
+      "os": "Windows 11",
+      "versions": ["latest", "latest - 1"]
+    }
+  ],
+  "run_settings": {
+    "cypress_config_file": "./apps/next-browserstack-automate-e2e/cypress.config.ts",
+    "project_name": "browserstack-demo-nx",
+    "build_name": "build-name",
+    "exclude": [],
+    "parallels": "10",
+    "cypress_version": "13.latest",
+    "npm_dependencies": {
+      "browserstack-cypress-cli": "^1.29.1",
+      "typescript": "^5.0.4",
+      "cypress": "^13.3.3"
+    },
+    "network_logs": true
+  },
+  "connection_settings": {
+    "local": true
+  }
+}

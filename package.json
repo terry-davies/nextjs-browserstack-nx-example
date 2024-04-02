@@ -2,7 +2,9 @@
   "name": "@next-browserstack-automate/source",
   "version": "0.0.0",
   "license": "MIT",
-  "scripts": {},
+  "scripts": {
+    "test:browserstack": "browserstack-cypress run"
+  },
   "private": true,
   "dependencies": {
     "next": "14.0.4",
@@ -28,6 +30,7 @@
     "@typescript-eslint/eslint-plugin": "^7.3.0",
     "@typescript-eslint/parser": "^7.3.0",
     "babel-jest": "^29.4.1",
+    "browserstack-cypress-cli": "^1.29.1",
     "cypress": "^13.6.6",
     "eslint": "~8.57.0",
     "eslint-config-next": "14.0.4",
